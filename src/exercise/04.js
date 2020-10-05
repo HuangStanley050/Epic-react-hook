@@ -54,7 +54,8 @@ function Board() {
   return (
     <div>
       {/* 🐨 put the status here */}
-      <div className="status">STATUS</div>
+
+      <div className="status">{status}</div>
       <div className="board-row">
         {renderSquare(0)}
         {renderSquare(1)}
